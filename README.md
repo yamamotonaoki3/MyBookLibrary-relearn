@@ -7,7 +7,7 @@
 
 ## フォルダ構成
 
-- `app/`: 自分で実装するアプリ。構成や技術を確認してから実装を始める。
+- `apps/web/`: 自分で実装する Next.js アプリ（画面と API）。将来 `apps/api/` や `packages/` を足せるモノレポ風の構成。
 - `docs/learning-log.md`: 学習の記録、疑問、次の課題。
 - `AGENTS.md`: この学習プロジェクトでのAIの支援方針。
 - `CLAUDE.md`: Claude Code向けのルール参照。

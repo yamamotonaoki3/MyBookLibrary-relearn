@@ -23,7 +23,7 @@
 analysis/
 └── MyBookLibrary/
     ├── AGENTS.md / CLAUDE.md / README.md
-    ├── app/.gitkeep
+    ├── apps/web/.gitkeep（2026-10-12 に app/ から移動）
     └── docs/ handoff-to-claude.md, learning-log.md, original-project-survey.md（本書）
 ```
 
@@ -91,7 +91,7 @@ Prismaモデルは21個（User, Book, Author, Award, AwardEntry, ReadingStatus, 
 
 **課題1：Next.js プロジェクトを作り、本の一覧を表示する（DBなし）**
 
-- 内容：`app/` に Next.js（TypeScript, App Router）を作成し、トップページにコード内の固定配列（3冊程度）からタイトル・著者・読書ステータスを一覧表示する。
+- 内容：`apps/web/` に Next.js（TypeScript, App Router）を作成し、トップページにコード内の固定配列（3冊程度）からタイトル・著者・読書ステータスを一覧表示する。
 - なぜ最初か：元アプリの中心である「本」と「読書ステータス」を、DB・認証・外部APIなしで扱える。
 - 完了条件：
   - `npm run dev` で http://localhost:3000 に3冊が表示される。
